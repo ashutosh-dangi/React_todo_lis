@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export": "next build && next export"
   },
   "dependencies": {
     "@emotion/react": "^11.11.4",
@@ -14,6 +15,7 @@
     "@mui/icons-material": "^5.15.18",
     "@mui/material": "^5.15.18",
     "next": "14.2.3",
+    "next-export-optimize-images": "^4.5.0",
     "react": "^18",
     "react-dom": "^18",
     "uuid": "^9.0.1"
