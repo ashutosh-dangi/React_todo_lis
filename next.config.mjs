@@ -1,8 +1,8 @@
 import withOptimizedImages from 'next-export-optimize-images';
 
 const nextConfig = withOptimizedImages({
-  basePath: '/your-repository-name',
-  assetPrefix: '/your-repository-name/',
+  basePath: 'React_todo_lis',
+  assetPrefix: 'React_todo_lis',
   output: 'export'
 });
 
